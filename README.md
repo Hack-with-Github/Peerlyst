@@ -4,4 +4,4 @@ A copy of articles [published at Peerlyst](https://www.peerlyst.com/users/hack-w
 
 | No | Article Name | Publish Date | 
 |----|----|----|
-| 1 | Apktool - Part 1 | 12 Oct 2016 |
+| 1 | [Apktool - Part 1](https://github.com/Hack-with-Github/Peerlyst/blob/master/Articles/Apktool.md)  | 12 Oct 2016 |
