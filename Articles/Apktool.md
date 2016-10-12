@@ -1,3 +1,7 @@
+# Apktool
+
+![Apktool](/Images/Apktool/apktool0.jpg)
+
 For all Android application hackers and reverse engineers, one of the most basic tools you would definitely have your hands-on is the `apktool`. For people who haven't heard anything about it, let's look at an introduction:
 
 > " It is an open source tool for reverse engineering Android APK files. Not only it has the power for decompiling, it is empowered with the feature of recompiling the decompiled code "
@@ -22,6 +26,7 @@ For this example, [Android Tamer](https://androidtamer.com/) is used. Android Ta
 
 Using [Android Studio](https://developer.android.com/studio/index.html), the sample android app's source code was compiled and built into a signed apk file. The compiled Android app is saved as `Application-release.apk`. Here's a screenshot of its AndroidManifest.xml file:
 
+![AndroidManifest original code](/Images/Apktool/apktool1.jpg)
 
 ### Decompiling the Android app
 
@@ -31,19 +36,19 @@ Decompiling the Android app is easy using apktool. The required command is:
 
 where `d` denotes decompile the apk file.
 
-
+![Apktool commandline usage](/Images/Apktool/apktool2.jpg)
 
 Using the above command creates a folder with the name same as that of the apk file (in this case the folder's name is Application-release).
 
-
+![Folder](/Images/Apktool/apktool3.jpg)
 
 When you enter inside the folder, you could see many folders and a file : `AndroidManifest.xml`
 
-
+![Output of apktool](/Images/Apktool/apktool4.jpg)
 
 Lets have a look at the manifest file:
 
-
+![Decompiled AndroidManifest file](/Images/Apktool/apktool5.jpg)
 
 On comparing both the original and the decompiled source code, you could see that the comments are stripped off and there are some slight changes with the indentation. As a result you can't say that the entire reverse-engineered source code is exact as the original, but it works when you compile it again.
 
