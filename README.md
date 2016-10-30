@@ -6,8 +6,8 @@ A copy of articles [published at Peerlyst](https://www.peerlyst.com/users/hack-w
 |----|----|----|
 | 1 | [Apktool - Part 1](https://github.com/Hack-with-Github/Peerlyst/blob/master/Articles/Apktool.md)  | 12 Oct 2016 |
 
-### Some other good articles
+### Other great articles
 
 | Publish Date | Article Name | GitHub link(s) | Author(s) |
 |----|----|----|----|
-| 30 Oct 2016 | [WarBerryPi – The Complete Guide](https://www.peerlyst.com/posts/warberrypi-the-complete-guide-secgroundzero)  | https://github.com/secgroundzero/warberry | [SecGroundZero](https://www.peerlyst.com/users/secgroundzero) ( [@sec_groundzero](https://twitter.com/sec_groundzero) )
+| 30 Oct 2016 | [WarBerryPi – The Complete Guide](https://www.peerlyst.com/posts/warberrypi-the-complete-guide-secgroundzero)  | https://github.com/secgroundzero/warberry | [SecGroundZero](https://www.peerlyst.com/users/secgroundzero) ([@sec_groundzero](https://twitter.com/sec_groundzero))
